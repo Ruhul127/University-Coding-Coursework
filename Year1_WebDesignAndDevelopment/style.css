@@ -1,0 +1,133 @@
+body{
+    background-color: #635457;
+}
+
+#header {
+    background-color: #2d2424;
+    height: 60px;
+  
+}
+h1 {
+    margin: -50px 0 0 10px;
+    padding:0px;
+    position: relative;
+    font-family: 'Palette Mosaic', cursive;
+    color: white;
+    text-align: center;
+}
+
+#navList {
+    background-color: grey;
+    height: 20px;
+    position: absolute;
+    text-align: center;
+}
+
+	#intro{
+	background-color: grey;
+    
+	top: 8px;
+	right: 10;
+    width: 1472px;
+	height: 40px;
+	text-align: right;
+	padding-top: 20px;
+	padding-right: 30px;
+  position: above;
+  font-family: 'Bebas Neue', cursive;
+  color: white;
+  font-size: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 21px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #000000;
+}
+
+
+#thumbBox{
+	float:left;
+	width: 22.75%;
+	background-color: #5b6167;
+	height: 550px;
+}
+
+img {
+  
+  padding: 5px;
+  padding-left: 30px;
+  width: 200px;
+  position: relative;
+}
+
+.product {
+    float:left
+    background-color rgb(255, 255, 255);
+    margin: 10px 10px 0 0;
+    width: 230px;
+	padding: 10px;
+}
+
+.description {
+	font-size: 20px;
+	font-weight: bold;
+	color:rgb(255, 255, 255);
+	padding-top: 10px;
+	height: 2px;
+	position: relative;
+  text-align: center;
+}
+
+
+#largeBox{
+	float:left;
+	background-color: #8d777c;
+	height: 550px;
+	width: 77.25%;
+  
+}
+
+#largeImage{
+  float: right;
+  background-color: rgb(94, 76, 76);
+  height: 400px;
+  width: 1142px;
+  padding-right: 20px;
+}
+
+form{
+  padding: 20px;
+  text-align: center;
+  height: 200px;
+  position: relative;
+  margin: 425px 50px 0 0;
+}
+
+
+
+footer {
+  background-color: #777;
+  padding: 40px;
+  text-align: center;
+  color: white;
+  font-family: 'Bebas Neue', cursive;
+}

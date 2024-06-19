@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home - Prototype</title>
+    <style>
+       
+            body {
+    font-family: Arial, sans-serif;
+    background-color: #e9f1fa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.header {
+    padding-left: 100px;
+    text-align: right;
+    background: #267f9c;
+    color: white;
+    font-size: 20px;
+    width: 100%; /* Ensure header takes full width */
+    box-sizing: border-box; /* Include padding in the width calculation */
+    position: fixed;
+    top: 0;
+}
+
+.navigation {
+            display: flex;
+            list-style: none;
+            padding-left: 100px;
+        }
+
+        .navigation li {
+            margin: 0 15px;
+        }
+
+        .navigation a {
+            text-decoration: none;
+            color: white;
+            font-size: 20;
+        }
+
+.logo img {
+    float: left; /* Floats the image to the left */
+    width: 300px; /* Adjust width to 250px */
+    height: auto; /* Adjust height as needed */
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* This will also horizontally center the content if needed */
+    padding: 10px;
+    width: 100%;
+    background: #267f9c; /* Match the header background color */
+    color: white;
+    bottom: 0;
+    left: 10;
+    position: fixed;
+}
+
+        
+    </style>
+    </head>
+    <body>
+        <header class="header clearfix">
+            <div class="logo">
+                <img src="logo.png" alt="Logo">
+            </div>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">My Account</a></li>
+                    <li><a href="#">Book Session</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Log Out</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+       </body>
+
+
+        </div>
+        <footer>
+            2023 Mile End Football Training Sessions. All rights reseved.        </footer>
+    </body>
+    </html>

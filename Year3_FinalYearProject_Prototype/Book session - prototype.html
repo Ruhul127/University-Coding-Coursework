@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Book session - Prototype</title>
+    <style>
+       
+            body {
+    font-family: Arial, sans-serif;
+    background-color: #e9f1fa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.header {
+    padding-left: 100px;
+    text-align: right;
+    background: #267f9c;
+    color: white;
+    font-size: 20px;
+    width: 100%; 
+    box-sizing: border-box; 
+    position: fixed;
+    top: 0;
+}
+
+.navigation {
+            display: flex;
+            list-style: none;
+            padding-left: 100px;
+        }
+
+        .navigation li {
+            margin: 0 15px;
+        }
+
+        .navigation a {
+            text-decoration: none;
+            color: white;
+            font-size: 20;
+        }
+
+.logo img {
+    float: left; 
+    width: 300px; 
+    height: auto; 
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding: 10px;
+    width: 100%;
+    background: #267f9c; 
+    color: white;
+    bottom: 0;
+    left: 10;
+    position: fixed;
+}
+
+.description {
+   
+    position: absolute;
+            top: 100px; 
+            left: 20px; 
+            width: 300px; 
+            font-size: 18px; 
+            
+}
+
+
+.booking-form {
+      width: 300px;
+      margin: 0 auto;
+      padding: 20px;
+      background: #f4f4f4;
+      font-family: Arial, sans-serif;
+    }
+
+    select, button, input, textarea {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+    } 
+        button {
+            display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #267f9c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+        }       
+    </style>
+    </head>
+    <body>
+        <header class="header clearfix">
+            <div class="logo">
+                <img src="logo.png" alt="Logo">
+            </div>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="Home - prototype.html">Home</a></li>
+                    <li><a href="My account - prototype.html">My Account</a></li>
+                    <li><a href="#">Book Session</a></li>
+                    <li><a href="About us - prototype.html">About Us</a></li>
+                    <li><a href="Sign in - prorotype.html">Log Out</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <form class="booking-form" action="/submit-booking" method="post">
+            <label for="day">Day:</label>
+            <select id="day" name="day" required>
+              <option value="monday">Monday</option>
+              <option value="tuesday">Tuesday</option>
+              <option value="wednesday">Wednesday</option>
+              <option value="thursday">Thursday</option>
+              <option value="friday">Friday</option>
+              <option value="saturday">Saturday</option>
+              <option value="sunday">Sunday</option>
+            </select>
+          
+            <label for="time-slot">Time Slot:</label>
+<input type="time" id="time-slot" name="time-slot" min="09:00" max="21:00" required>
+          
+<label for="training-sessions">Training Session:</label>
+<select id="training-sessions" name="training-sessions" required>
+  <option value="defending">Defending</option>
+  <option value="goalkeeping">Goalkeeping</option>
+  <option value="dribbling">Dribbling</option>
+  <option value="passing">Passing</option>
+  <option value="shooting">Shooting</option>
+</select>
+          
+            <button type="submit">Confirm Booking</button>
+          </form>
+          
+
+        <div class="description">
+            <p> "Mile End Football Training Session" offers a unique and fun football curriculum for children, focusing on the four core technical principles: control, passing, shooting, and dribbling. The training sessions aim to provide a positive and engaging environment for young players to learn, develop, and make new friends.</p>
+        </div>
+         
+       </body>
+
+
+        </div>
+        <footer>
+            2023 Mile End Football Training Sessions. All rights reseved.        </footer>
+    </body>
+    </html>
